@@ -28,7 +28,7 @@ Location: `/etc/fail2ban/jail.local`
 
 Example config for SSH and Webmin:
 
-```bash
+```conf
 [DEFAULT]
 bantime = 21600
 bantime.increment = true
