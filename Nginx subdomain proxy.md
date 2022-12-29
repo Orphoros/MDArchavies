@@ -32,6 +32,11 @@ server {
 certbot --nginx -d abcd.orphoros.com
 ```
 
+## Remove SSL
+```bash
+certbot delete --cert-name abcd.orphoros.com
+```
+
 ## Check config status
 ```bash
 nginx -t
