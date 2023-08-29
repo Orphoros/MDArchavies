@@ -8,7 +8,7 @@ sudo nano /etc/yum.repos.d/mongodb-org-4.4.repo
 
 Add the following content:
 
-```bash
+```toml
 [Mongodb]
 name=MongoDB Repository
 baseurl=https://repo.mongodb.org/yum/redhat/8/mongodb-org/4.4/x86_64/
@@ -79,7 +79,7 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin
 
 Edit `/etc/mongod.conf`
 
-```bash
+```yml
 # network interfaces
 net:
   port: 27017

@@ -10,7 +10,7 @@
 nano /etc/systemd/system/my-service.service
 ```
 ## Write the service
-```conf
+```toml
 [Unit]
 Description=My Service
 After=rc-local.service
