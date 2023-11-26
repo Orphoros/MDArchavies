@@ -29,3 +29,8 @@ networks:
     name: microservices
     external: true
 ```
+## Start and run an image in a network
+
+```bash
+docker run -d --name container_name -p 8000:80 --network=microservices --ip=172.19.0.10 user/image:main
+```
